@@ -1,0 +1,63 @@
+ゲームタイトル：　　　　ねじきり
+
+使用プログラミング言語：C++
+
+DirectXバージョン：　　 DirectX 12
+
+VisualStudioバージョン：VisualStudio2017
+
+実行環境
+　　OS：　　　　　　　　Windows10Pro 64bit
+　　CPU：　　　　　　　 Intel® Core™ i7-10750H
+　　メモリ：　　　　　　16GB
+　　GPU	：　　　　　　　RTX™2060 / インテル® UHD グラフィックス
+　　画面解像度：　　　　1920×1080
+　　DirectX：　　　　　 DirectX 12
+
+
+作成期間：　　　　　　　6ヵ月
+
+所要時間数の概要
+企画：　　　　　　　　　1ヵ月
+制作：　　　　　　　　　5ヵ月(α版 2ヵ月　β版 3ヵ月)
+
+開発メンバー数：　　　　3人
+
+自身の担当範囲
+　チームリーダー,企画の立案,タスク管理,スケジュール調整
+　メインプログラマー,プレイヤー・メインギミックのプログラム,シーン遷移管理
+　当たり判定,UI,エンディング時の画面移動制御,ゲーム内すべてのテクスチャの制作等
+
+制作意図の解説
+2021年10月2日に行われた
+「日本ゲーム大賞2021アマチュア部門」
+に応募するために制作した作品です。
+
+担当ファイル：　　　　　(.cpp / .h)
+　　　　　　　　　　　　GameManager(共同)
+　　　　　　　　　　　　SceneTitle(共同)
+　　　　　　　　　　　　SceneSelect(共同)
+　　　　　　　　　　　　SceneGame(共同)
+　　　　　　　　　　　　GimmickAll(共同)
+　　　　　　　　　　　　GameUI(共同)
+　　　　　　　　　　　　SceneManager
+　　　　　　　　　　　　SceneED
+　　　　　　　　　　　　DrawMAP
+　　　　　　　　　　　　CharaPL
+　　　　　　　　　　　　PauseSG
+　　　　　　　　　　　　SettingSG
+　　　　　　　　　　　　SEManager
+　　　　　　　　　　　　GamePad
+　　　　　　　　　　　　WinMain
+　　　　　　　　　　　　GameMain
+　　　　　　　　　　　　CheckHitKey
+　　　　　　　　　　　　Gameinformation
+　　　　　　　　　　　　AllResourceLord
+　　　　　　　　　　　　CSVHeader
+　　　　　　　　　　　　CSVSource
+　　　　　　　　　　　　UIDraw
+　　　　　　　　　　　　Vector2D
+
+使用素材：　　　　　　　Taira Komori(https://taira-komori.jpn.org/freesound.html)
+　　　　　　　　　　　　魔王魂(https://maou.audio/)
+　　　　　　　　　　　　効果音ラボ(https://soundeffect-lab.info/)
