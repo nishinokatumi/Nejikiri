@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B79324E5-79B3-4B91-8262-50D3DA87E6DC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>nejikiriguru</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>nejikiri</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="resource\csvdata\stage_0.csv" />
+    <None Include="resource\csvdata\stage_1.csv" />
+    <None Include="resource\csvdata\stage_10.csv" />
+    <None Include="resource\csvdata\stage_11.csv" />
+    <None Include="resource\csvdata\stage_12.csv" />
+    <None Include="resource\csvdata\stage_13.csv" />
+    <None Include="resource\csvdata\stage_14.csv" />
+    <None Include="resource\csvdata\stage_15.csv" />
+    <None Include="resource\csvdata\stage_16.csv" />
+    <None Include="resource\csvdata\stage_17.csv" />
+    <None Include="resource\csvdata\stage_18.csv" />
+    <None Include="resource\csvdata\stage_19.csv" />
+    <None Include="resource\csvdata\stage_2.csv" />
+    <None Include="resource\csvdata\stage_20.csv" />
+    <None Include="resource\csvdata\stage_21.csv" />
+    <None Include="resource\csvdata\stage_22.csv" />
+    <None Include="resource\csvdata\stage_23.csv" />
+    <None Include="resource\csvdata\stage_24.csv" />
+    <None Include="resource\csvdata\stage_25.csv" />
+    <None Include="resource\csvdata\stage_26.csv" />
+    <None Include="resource\csvdata\stage_27.csv" />
+    <None Include="resource\csvdata\stage_28.csv" />
+    <None Include="resource\csvdata\stage_29.csv" />
+    <None Include="resource\csvdata\stage_3.csv" />
+    <None Include="resource\csvdata\stage_4.csv" />
+    <None Include="resource\csvdata\stage_5.csv" />
+    <None Include="resource\csvdata\stage_6.csv" />
+    <None Include="resource\csvdata\stage_7.csv" />
+    <None Include="resource\csvdata\stage_8.csv" />
+    <None Include="resource\csvdata\stage_9.csv" />
+    <None Include="resource\GameData.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\GameMain.h" />
+    <ClInclude Include="source\sceneSource\gameSource\CharaPL.h" />
+    <ClInclude Include="source\sceneSource\gameSource\DrawMAP.h" />
+    <ClInclude Include="source\sceneSource\gameSource\GameManager.h" />
+    <ClInclude Include="source\sceneSource\gameSource\GimmickAll.h" />
+    <ClInclude Include="source\sceneSource\gameSource\OptionSG.h" />
+    <ClInclude Include="source\sceneSource\gameSource\PauseSG.h" />
+    <ClInclude Include="source\sceneSource\gameSource\SettingSG.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\AllResourceLoad.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\CheckHitKey.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\CSVHeader.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\Gameinformation.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\GamePad.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\GameUI.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\OperationManager.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\SEManager.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\UIDraw.h" />
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\Vector2D.h" />
+    <ClInclude Include="source\sceneSource\SceneBase.h" />
+    <ClInclude Include="source\sceneSource\SceneED.h" />
+    <ClInclude Include="source\sceneSource\SceneGame.h" />
+    <ClInclude Include="source\sceneSource\SceneManager.h" />
+    <ClInclude Include="source\sceneSource\SceneSelect.h" />
+    <ClInclude Include="source\sceneSource\SceneTitle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\GameMain.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\CharaPL.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\DrawMAP.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\GameManager.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\GimmickAll.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\OptionSG.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\PauseSG.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\AllResourceLoad.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\CheckHitKey.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\CSVSource.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\GamePad.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\GameUI.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\SEManager.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\UIDraw.cpp" />
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\Vector2D.cpp" />
+    <ClCompile Include="source\sceneSource\SceneED.cpp" />
+    <ClCompile Include="source\sceneSource\SceneGame.cpp" />
+    <ClCompile Include="source\sceneSource\SceneManager.cpp" />
+    <ClCompile Include="source\sceneSource\SceneSelect.cpp" />
+    <ClCompile Include="source\sceneSource\SceneTitle.cpp" />
+    <ClCompile Include="source\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resource\sound\electricity.mp3" />
+    <Media Include="resource\sound\enter.mp3" />
+    <Media Include="resource\sound\footsteps.mp3" />
+    <Media Include="resource\sound\footstepslow.mp3" />
+    <Media Include="resource\sound\gameover.mp3" />
+    <Media Include="resource\sound\gole.mp3" />
+    <Media Include="resource\sound\jump.mp3" />
+    <Media Include="resource\sound\land.mp3" />
+    <Media Include="resource\sound\select.mp3" />
+    <Media Include="resource\sound\switch.mp3" />
+    <Media Include="resource\sound\timelimit.mp3" />
+    <Media Include="resource\sound\warpmobiusring.mp3" />
+    <Media Include="resource\sound\windbgm.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\texture\backbase.png" />
+    <Image Include="resource\texture\background.png" />
+    <Image Include="resource\texture\backmove.png" />
+    <Image Include="resource\texture\backsky.png" />
+    <Image Include="resource\texture\gimmick32pix.png" />
+    <Image Include="resource\texture\manualkey.png" />
+    <Image Include="resource\texture\manualpad.png" />
+    <Image Include="resource\texture\panel32pix.png" />
+    <Image Include="resource\texture\player32pix.png" />
+    <Image Include="resource\texture\titlelog.png" />
+    <Image Include="resource\texture\ui32pix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="VariableNamesList.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

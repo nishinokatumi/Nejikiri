@@ -1,0 +1,61 @@
+定数	関数	コメント
+
+	-多用-
+GAME	Game	ゲーム
+DATA	data	データ
+SCENE	scene	シーン
+STAGE	stage	ステージ
+HANDLE	handle	ハンドル
+GRA		gra		グラフィック
+UI		ui		UI
+SOUND	sound	音
+BGM		bgm		背景音声
+WIN		win		ウィンドウ
+WID		wid		横幅
+HEI		hei		高さ
+SIZE	size	正方形の一辺のピクセル数
+POS		pos		位置
+VEC		vec		進行方向
+
+	-短縮ラベル-
+s				シーン
+m				メイン
+p				プレイヤー
+g				ギミック
+v				ベクトル
+
+
+	-シーン-
+Base			基本
+Game			ゲームシーン
+Title			タイトルシーン
+Select			選択シーン
+
+	-オブジェクトクラス基本-
+PL		pl		プレイヤー
+MAP		map		マップ
+BLOCK	block	ステージブロック
+GIMMICK	gimmick	ステージギミック
+
+	-ギミック-
+WMR		wmr		WMR(ワープメビウスリング)ギミック
+PRES	pres	感圧ギミック
+ENER	ener	通電ギミック
+WIRE	wire	針金ギミック
+
+	-動作・表現-
+INITIA	Initia	初期化
+FINAL	Final	処理
+UPDATE	Update	繰り返し処理
+DRAW	Draw	表示
+ROAD	Road	読み込み
+WRITE	Write	書き込み
+
+MAIN	Main	主な
+SHORT	Short	短く
+LOOP	Loop	繰り返す
+SELE	Sele	選択
+DESCR	Descr	説明
+TUTORI	Tutori	チュートリアル
+ANTI	Anti	反転
+Check	Check	確認

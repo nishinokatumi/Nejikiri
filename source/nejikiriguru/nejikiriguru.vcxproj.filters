@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\MainSource">
+      <UniqueIdentifier>{2e3ba1b0-5fdd-4ccb-aa0c-05766fe1714d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scenesource">
+      <UniqueIdentifier>{69e8f219-dd7a-4f3b-a9b5-f7c576c0323b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Settingsource">
+      <UniqueIdentifier>{5fbc5e04-3f69-47f8-af3b-11be4c3e9464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MainHeader">
+      <UniqueIdentifier>{469872e7-a268-428d-a7f8-1bb5b0dc4625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameHeader">
+      <UniqueIdentifier>{39d08ad0-1c3d-40d6-a1a4-aa681ae68aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\SettingHeader">
+      <UniqueIdentifier>{c7d38e24-30e1-4040-951d-5f2e07ae3cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\SceneHeader">
+      <UniqueIdentifier>{62594a9e-44c2-45b8-90a3-71022dc3e311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\texture">
+      <UniqueIdentifier>{8810d336-ee80-434e-8228-08c48fed37f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\sound">
+      <UniqueIdentifier>{b2744682-76bd-48eb-ba79-9ea6a830586d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\CVSdata">
+      <UniqueIdentifier>{d623ed49-5b95-435f-976e-9ab5668d4368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Gamesource">
+      <UniqueIdentifier>{786043bb-245d-474a-9a37-e3ab297cbc74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\csvdata\stage_10.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_11.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_12.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_13.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_14.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_15.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_16.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_17.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_18.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_19.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_20.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_21.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_22.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_23.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_24.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_25.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_26.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_27.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_28.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_29.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_0.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_1.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_2.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_3.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_4.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_5.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_6.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_7.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_8.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\csvdata\stage_9.csv">
+      <Filter>リソース ファイル\CVSdata</Filter>
+    </None>
+    <None Include="resource\GameData.dat">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\Gameinformation.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\GamePad.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\GameUI.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\SEManager.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\UIDraw.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\Vector2D.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\CheckHitKey.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\CSVHeader.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\PauseSG.h">
+      <Filter>ヘッダー ファイル\GameHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\SettingSG.h">
+      <Filter>ヘッダー ファイル\GameHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\CharaPL.h">
+      <Filter>ヘッダー ファイル\GameHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\DrawMAP.h">
+      <Filter>ヘッダー ファイル\GameHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\GameManager.h">
+      <Filter>ヘッダー ファイル\GameHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\SceneGame.h">
+      <Filter>ヘッダー ファイル\SceneHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\SceneManager.h">
+      <Filter>ヘッダー ファイル\SceneHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\SceneSelect.h">
+      <Filter>ヘッダー ファイル\SceneHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\SceneTitle.h">
+      <Filter>ヘッダー ファイル\SceneHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\SceneBase.h">
+      <Filter>ヘッダー ファイル\SceneHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\SceneED.h">
+      <Filter>ヘッダー ファイル\SceneHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameMain.h">
+      <Filter>ヘッダー ファイル\MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\AllResourceLoad.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\settingSource\OperationManager.h">
+      <Filter>ヘッダー ファイル\SettingHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\OptionSG.h">
+      <Filter>ヘッダー ファイル\GameHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sceneSource\gameSource\GimmickAll.h">
+      <Filter>ヘッダー ファイル\GameHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\GameUI.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\SEManager.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\UIDraw.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\Vector2D.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\CheckHitKey.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\CSVSource.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\GamePad.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\GameManager.cpp">
+      <Filter>ソース ファイル\Gamesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\PauseSG.cpp">
+      <Filter>ソース ファイル\Gamesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\CharaPL.cpp">
+      <Filter>ソース ファイル\Gamesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\DrawMAP.cpp">
+      <Filter>ソース ファイル\Gamesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\SceneManager.cpp">
+      <Filter>ソース ファイル\Scenesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\SceneSelect.cpp">
+      <Filter>ソース ファイル\Scenesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\SceneTitle.cpp">
+      <Filter>ソース ファイル\Scenesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\SceneED.cpp">
+      <Filter>ソース ファイル\Scenesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\SceneGame.cpp">
+      <Filter>ソース ファイル\Scenesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinMain.cpp">
+      <Filter>ソース ファイル\MainSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameMain.cpp">
+      <Filter>ソース ファイル\MainSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\settingSource\AllResourceLoad.cpp">
+      <Filter>ソース ファイル\Settingsource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\OptionSG.cpp">
+      <Filter>ソース ファイル\Gamesource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sceneSource\gameSource\GimmickAll.cpp">
+      <Filter>ソース ファイル\Gamesource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resource\sound\gole.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\jump.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\land.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\select.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\switch.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\timelimit.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\warpmobiusring.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\windbgm.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\electricity.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\enter.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\footsteps.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\footstepslow.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+    <Media Include="resource\sound\gameover.mp3">
+      <Filter>リソース ファイル\sound</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\texture\backmove.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\backsky.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\gimmick32pix.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\manualkey.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\manualpad.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\panel32pix.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\player32pix.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\titlelog.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\ui32pix.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\backbase.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="resource\texture\background.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="VariableNamesList.txt" />
+  </ItemGroup>
+</Project>
