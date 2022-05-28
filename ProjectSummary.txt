@@ -6,6 +6,14 @@ DirectXバージョン：　　 DirectX 12
 
 VisualStudioバージョン：VisualStudio2017
 
+実行環境
+　　OS：　　　　　　　　Windows10Pro 64bit
+　　CPU：　　　　　　　 Intel® Core™ i7-10750H
+　　メモリ：　　　　　　16GB
+　　GPU	：　　　　　　　RTX™2060 / インテル® UHD グラフィックス
+　　画面解像度：　　　　1920×1080
+　　DirectX：　　　　　 DirectX 12
+
 
 作成期間：　　　　　　　6ヵ月
 
